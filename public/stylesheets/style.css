@@ -118,3 +118,42 @@ ul li {
   font-weight: bold;
   font-size: 2em;
 }
+.post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.img{
+  width: 300px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap:2rem
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content{
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.hoov img:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
