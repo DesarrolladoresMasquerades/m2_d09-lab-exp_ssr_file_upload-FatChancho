@@ -1,2 +1,8 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>THE RECENT POSTS</h1>
+<div class="flex">
+{{#each post}}
+    <div class="post">
+        <a class="hoov" href="post/{{_id}}"><img src="{{picPath}}" width="250" height="300"></img></a>
+    </div>
+{{/each}}
+</div>
